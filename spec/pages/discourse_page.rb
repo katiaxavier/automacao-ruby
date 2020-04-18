@@ -31,7 +31,7 @@ end
     puts view
   end
 
-  def categorys_items
+  def print_categorys_items
     category = { "uncategorized" => 0, "discourse" => 0, "videos" => 0, "gaming" => 0, "movies" => 0,
                 "tech" => 0, "general" => 0, "sports" => 0, "school" => 0, "pics" => 0, "music" => 0, "pets" => 0 }
 

@@ -13,7 +13,7 @@ describe 'Access the page' do
     @discoursePage.demo
     @discoursePage.scroll('1000')
     @discoursePage.print_closed
-    @discoursePage.categorys_items
+    @discoursePage.print_categorys_items
     @discoursePage.scroll('-1000')
     @discoursePage.print_first_views
   end
